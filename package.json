@@ -1,0 +1,37 @@
+{
+  "name": "auth-service",
+  "version": "0.0.1",
+  "author": " <>",
+  "private": true,
+  "scripts": {
+    "start": "node auth-service.js",
+    "debug": "node-debug auth-service.js --debug-brk",
+    "test": "mocha specs --reporter spec",
+    "docker": "node Dockerfile"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "fwsp-config": "1.1.5",
+    "fwsp-server-response": "2.2.6",
+    "hydra-express": "1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "pm2": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "del": "^4.1.0",
+    "eslint": "3.16.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "mocha": "3.2.0",
+    "nodemon": "^1.18.10",
+    "superagent": "3.5.2"
+  }
+}

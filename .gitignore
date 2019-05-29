@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+*.pem
+*.rsa
+node_modules
+*/public
+
+
+# dependencies
+/node_modules
+
+# Node JS
+package-lock.json

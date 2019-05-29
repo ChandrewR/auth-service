@@ -1,0 +1,16 @@
+{
+  "environment": "development",
+  "dburl": "mongodb://127.0.0.1:27017/outreach-auth",
+  "hydra": {
+    "serviceName": "auth-service",
+    "serviceIP": "",
+    "servicePort": 51806,
+    "serviceType": "auth",
+    "serviceDescription": "Authentication and Authorization",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

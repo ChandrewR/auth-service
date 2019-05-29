@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "auth-service",
+    "serviceIP": "",
+    "servicePort": 0,
+    "serviceType": "auth",
+    "serviceDescription": "Authentication and Authorization",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
